@@ -1,117 +1,141 @@
-    * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-    }
-    
-    body {
-        background: linear-gradient(to right, dodgerblue, oldlace 60%);
-    }
-    
-    .content {
-        border: 1px solid black;
-        background-color: wheat;
-        width: 90%;
-        margin: 10px 20px 20px 20px;
-        ;
-        overflow: auto;
-    }
-    
-    h2 {
-        background-color: aqua;
-        text-align: center;
-        width: 25%;
-        float: right;
-    }
-    
-    h2:hover {
-        background-color: white;
-        color: black;
-        cursor: pointer;
-    }
-    
-    p {
-        width: 90%;
-        height: 130px;
-        margin-right: auto;
-        margin-left: auto;
-        margin-top: auto;
-        color: black;
-        text-align: start;
-    }
-    
-    .row {
-        width: 100%;
-        margin-top: 50px;
-    }
-    
-    h1 {
-        text-align: center;
-        text-transform: capitalize;
-        font-size: 2.5em;
-        font-family: 'Segoe UI', sans-serif;
-        margin-top: 40px;
-    }
-    
-    @media (min-width:992px) {
-        .col-lg-4 {
-            float: left;
-            position: relative;
-        }
-        .col-lg-4 {
-            width: 33%;
-        }
-        h2 {
-            background-color: yellowgreen;
-            color: blue;
-            text-align: center;
-        }
-        p {
-            width: 90%;
-            height: 150px;
-            margin-top: 35px;
-            color: black;
-            text-align: start;
-        }
-    }
-    
-    @media (min-width:768px) and (max-width:991px) {
-        .col-md-6,
-        .col-md-12 {
-            float: left;
-        }
-        .col-md-6 {
-            width: 50%;
-        }
-        .col-md-12 {
-            width: 100%;
-        }
-        h2 {
-            background-color: yellowgreen;
-            color: blue;
-            text-align: center;
-        }
-        p {
-            width: 90%;
-            margin-top: 35px;
-            color: black;
-            text-align: start;
-        }
-        .content {
-            border: 1px solid black;
-            background-color: wheat;
-            margin-top: 20px;
-            width: 90%;
-        }
-    }
-    
-    @media (max-width:767) {
-        .col-xs-12 {
-            float: left;
-        }
-        h2 {
-            background-color: yellowgreen;
-            color: blue;
-            text-align: center;
-        }
-    }
+                        * {
+                            margin: 0;
+                            padding: 0;
+                            box-sizing: border-box;
+                        }
+                        
+                        body {
+                            background: linear-gradient(to right, dodgerblue, oldlace 60%);
+                        }
+                        
+                        .content {
+                            border: 1px solid black;
+                            background-color: pink;
+                            margin: 20px;
+                            width: 90%;
+                            height: 190px;
+                            overflow: auto;
+                        }
+                        
+                        h2 {
+                            background-color: rgb(94, 148, 209);
+                            color: white;
+                            text-align: center;
+                            width: 20%;
+                            text-transform: capitalize;
+                            float: right;
+                        }
+                        
+                        h2:hover {
+                            background-color: white;
+                            color: rgb(94, 148, 209);
+                            cursor: pointer;
+                        }
+                        
+                        p {
+                            width: 90%;
+                            margin-right: auto;
+                            margin-left: auto;
+                            margin-top: 50px;
+                            color: black;
+                            text-align: start;
+                        }
+                        
+                        .row {
+                            width: 100%;
+                            margin-top: 60px;
+                        }
+                        
+                        h1 {
+                            text-align: center;
+                            text-transform: capitalize;
+                            font-size: 2.5em;
+                            font-family: 'Segoe UI', sans-serif;
+                            margin-top: 40px;
+                            color: rgb(99, 27, 128);
+                        }
+                        
+                        @media (min-width:992px) {
+                            .col-lg-4 {
+                                float: left;
+                                position: relative;
+                            }
+                            .col-lg-4 {
+                                width: 33%;
+                            }
+                            h2 {
+                                background-color: rgb(94, 148, 209);
+                                color: white;
+                                height: 16%;
+                                text-align: center;
+                            }
+                            p {
+                                width: 90%;
+                                margin-top: 55px;
+                                color: black;
+                                text-align: start;
+                            }
+                            .content {
+                                border: 1px solid black;
+                                background-color: pink;
+                                margin-top: 20px;
+                                width: 90%;
+                                height: 200px;
+                            }
+                        }
+                        
+                        @media (min-width:768px) and (max-width:991px) {
+                            .col-md-6,
+                            .col-md-12 {
+                                float: left;
+                            }
+                            .col-md-6 {
+                                width: 50%;
+                            }
+                            .col-md-12 {
+                                width: 105%;
+                            }
+                            h2 {
+                                background-color: rgb(94, 148, 209);
+                                color: white;
+                                height: 16%;
+                                text-align: center;
+                            }
+                            p {
+                                width: 90%;
+                                margin-top: 50px;
+                                color: black;
+                                text-align: start;
+                            }
+                            .content {
+                                border: 1px solid black;
+                                background-color: pink;
+                                width: 90%;
+                                height: 200px;
+                            }
+                        }
+                        
+                        @media (max-width:767px) {
+                            .col-xs-12 {
+                                float: left;
+                            }
+                            h2 {
+                                background-color: rgb(94, 148, 209);
+                                color: white;
+                                height: 16%;
+                                text-align: center;
+                            }
+                            p {
+                                width: 90%;
+                                margin-top: 50px;
+                                color: black;
+                                text-align: start;
+                            }
+                            .content {
+                                border: 1px solid black;
+                                background-color: pink;
+                                width: 90%;
+                                margin: 35px;
+                                height: 180px;
+                            }
+                        }
